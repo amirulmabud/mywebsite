@@ -1,0 +1,61 @@
+  /* SCREEN LAYOUT - WHEN THE SCREEN IS LESS THAN 700PX WIDE */
+
+  @media screen and (max-width:700px) {
+
+    .row{
+
+        flex-direction: column;
+
+    }
+    .content{
+        padding: 2px;
+        margin: 2px;
+        width: 100%;
+    }
+    .contactname{
+        margin-left: 20%;
+        font-size: 15px;
+    }
+    li.contact{
+      font-size: 10px;
+        
+      margin-right: 50%;
+    }
+
+}
+
+ /* SCREEN LAYOUT - WHEN THE SCREEN IS LESS THAN 400PX WIDE */
+
+ @media screen and (max-width:400px) {
+
+    
+
+      .navbar a {
+          float: left;
+          width: 20%;
+      
+    
+
+      }
+
+      .header{
+          height: 250px;
+      }
+      .welcome{
+          margin-top: -10px;
+      }
+      .content{
+          padding: 2px;
+          margin: 2px;
+          width: 100%;
+      }
+      .contactname{
+          font-size: 15px;
+      }
+      li.contact{
+        font-size: 10px;
+        margin-right: 20px;
+        margin-left: 100px;
+      }
+
+}
